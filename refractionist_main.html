@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Refractionist</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Dr PRO template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/table.css">
+<link rel="stylesheet" type="text/css" href="styles/blog.css">
+<link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+</head>
+<body>
+
+	<div class="table_column1">
+<div class="super_container">
+	
+	<!-- Header -->
+	<!-- Home -->
+
+	<div class="home d-flex flex-column align-items-start justify-content-end">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8"></div>
+		<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Refractionist</div>
+							<div class="home_text">Eye Genie</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+    <div class="gap_"></div>
+    <div id="openModal-about" class="modalDialog">
+ 
+        <a href="#close" title="Close" class="close">X</a>
+        <div class="col-lg-6 intro_col">
+          <div class="intro_form_container">
+            <div class="intro_form_title">DIAGNOSIS</div>
+            <form action="#" class="intro_form" id="intro_form">
+              <div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
+                <input type="text" class="intro_input" placeholder="visualAcuityLE" required="required">
+                <input type="email" class="intro_input" placeholder="VisualAcuityRE" required="required">
+                <input type="tel" class="intro_input" placeholder="LeftEyeiOP" required="required">
+                <select class="intro_select intro_input" required>
+                  <option disabled="" selected="" value="">LeftEyeiOP</option>
+                  <option>Speciality 1</option>
+                  <option>Speciality 2</option>
+                  <option>Speciality 3</option>
+                  <option>Speciality 4</option>
+                  <option>Speciality 5</option>
+                </select>
+                <select class="intro_select intro_input" required="required">
+                    <option disabled="" selected="" value="">RightEyeIOP</option>
+                    <option>Doctor 1</option>
+                    <option>Doctor 2</option>
+                    <option>Doctor 3</option>
+                    <option>Doctor 4</option>
+                    <option>Doctor 5</option>
+                  </select>
+                  <input type="tel" class="intro_input" placeholder="SphereSPHLE" required="required">
+                  <input type="tel" class="intro_input" placeholder="CylinderCYLLE" required="required">
+                  <input type="tel" class="intro_input" placeholder="AxisLE" required="required">
+                  <input type="tel" class="intro_input" placeholder="SphereSphRe" required="required">
+                  <input type="tel" class="intro_input" placeholder="CylinderCylRe" required="required">
+                  <input type="tel" class="intro_input" placeholder="AXISRe" required="required">
+                  <input type="tel" class="intro_input" placeholder="BestCorrectedVisualAcuityBcvaLeft Eye" required="required">
+                  <input type="tel" class="intro_input" placeholder="BestCorrectedVisualAcuityBcvaRightEye" required="required">
+                  
+              </div>
+              <button class="button button_1 intro_button trans_200">Add to druglist</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    <table id="table_">
+        <thead>
+        <tr>
+            <td><a href="#">NEW APPOINTMENTS</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="amount">
+                <a href="#openModal-about"><p class="status status-paid">Create new</p></a></td>
+            <td class="amount">
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <th>APPOINTMENT_id</th>
+            <th>Patient_ID</th>
+            <th>PATIENT_NAME</th>
+            <th>PROBLEM</th>
+            <th>Start_at</th>
+            <th>End_at</th>
+            <th>status</th>
+            <th class="amount">
+                <p class="status status-other">View previous</p></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#">PAT__1001</a></td>
+            <td>REC__1001</td>
+            <td>REC__1001</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_progress">in progess</td>
+            <td class="amount">
+                <a href="#openModal-about"><p class="status status-unpaid">Diagnotics form</p></a></td>
+                <td>-</td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1002</a></td>
+            <td>REC__1001</td>
+            <td>REC__1001</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_progress">in progess</td>
+            <td class="amount">
+                <p class="status status-unpaid">Diagnotics form</p></td>
+                <td>-</td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1003</a></td>
+            <td>REC__1001</td>
+            <td>REC__1004</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_progress">in progess</td>
+            <td class="amount">
+                <p class="status status-unpaid">Diagnotics form</p></td>
+                <td>-</td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1004</a></td>
+            <td>REC__1001</td>
+            <td>REC__1001</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_pending">pending</td>
+            <td class="amount">
+                <p class="status status-edit">Finish</p></td>
+                <td>-</td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1005</a></td>
+            <td>REC__1001</td>
+            <td>REC__1004</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_closed">Closed</td>
+            <td class="amount">
+                <p class="status status-paid">Finished</p></td>
+                
+          <td>View prescription</td>
+          </tr>
+        </tbody>
+      </table>
+      
+<div class="gap_"></div>
+<table id="table_">
+    <thead>
+    <tr>
+        <td><a href="#">DOCTORS</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="amount">
+      </tr>
+    </thead>
+    <thead>
+      <tr>
+        <th>name</th>
+        <th>PATIENT_NAME</th>
+        <th>PROBLEM</th>
+        <th>Start_at</th>
+        <th>End_at</th>
+        <th>status</th>
+        <th class="amount">
+            <p class="status status-other">View previous▶</p></th>
+            <th class="amount">
+                <p class="status status-other">View previous▶</p></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="#">PAT__1001</a></td>
+        <td>REC__1001</td>
+        <td>DOC__1001</td>
+        <td>9:00 9/1</td>
+        <td>12:00 9/1</td>
+        <td class = "status_progress">in progess</td>
+        <td class="amount">
+            <a href="#openModal-about"><p class="status status-unpaid">Diagnotics form</p></a></td>
+            <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="#">PAT__1002</a></td>
+        <td>REC__1001</td>
+        <td>DOC__1001</td>
+        <td>9:00 9/1</td>
+        <td>12:00 9/1</td>
+        <td class = "status_progress">in progess</td>
+        <td class="amount">
+            <p class="status status-unpaid">Diagnotics form</p></td>
+            <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="#">PAT__1003</a></td>
+        <td>REC__1004</td>
+        <td>DOC__1001</td>
+        <td>9:00 9/1</td>
+        <td>12:00 9/1</td>
+        <td class = "status_progress">in progess</td>
+        <td class="amount">
+            <p class="status status-unpaid">Diagnotics form</p></td>
+            <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="#">PAT__1004</a></td>
+        <td>REC__1001</td>
+        <td>DOC__1001</td>
+        <td>9:00 9/1</td>
+        <td>12:00 9/1</td>
+        <td class = "status_pending">pending</td>
+        <td class="amount">
+            <p class="status status-edit">Finish</p></td>
+            <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="#">PAT__1005</a></td>
+        <td>REC__1004</td>
+        <td>DOC__1001</td>
+        <td>9:00 9/1</td>
+        <td>12:00 9/1</td>
+        <td class = "status_closed">Closed</td>
+        <td class="amount">
+            <p class="status status-paid">Finished</p></td>
+            
+      <td>View prescription</td>
+      </tr>
+    </tbody>
+  </table>
+  
+<div class="gap_"></div>
+</div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/blog.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

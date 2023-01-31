@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ADMIN</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Dr PRO template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/blog.css">
+<link rel="stylesheet" type="text/css" href="styles/table.css">
+<link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+</head><header class="header trans_400">
+		<div class="header_content d-flex flex-row align-items-center jusity-content-start trans_400">
+
+			<!-- Logo -->
+			<div class="logo">
+				<a href="#">
+					<div>Eye<span>Genie</span></div>
+					<div>Eye clinic online</div>
+				</a>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav">
+				<ul class="d-flex flex-row align-items-center justify-content-start">
+					<li><a href="#table_">Appointments</a></li>
+					<li><a href="#table__">Drugs</a></li>
+					<li ><a href="#table___">Instruments</a></li>
+					<li><a href="admin_patients.html">Patients</a></li>
+					<li><a href="admin_refractionists.html">Refractionists</a></li>
+					<li><a href="admin_doctors.html">Doctors</a></li>
+				</ul>
+			</nav>
+			<div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
+				
+				<!-- Work Hourse -->
+				<div class="work_hours">Mo - Sat: 8:00am - 9:00pm</div>
+
+				<!-- Header Social -->
+				<div class="social header_social">
+					<ul class="d-flex flex-row align-items-center justify-content-start">
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+
+				<!-- Hamburger -->
+				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu_overlay trans_400"></div>
+	<div class="menu trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<nav class="menu_nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="blog.html">News</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="menu_extra">
+			<div class="menu_link">Mo - Sat: 8:00am - 9:00pm</div>
+			<div class="menu_link">+34 586 778 8892</div>
+			<div class="menu_link"><a href="#">Make an appointment</a></div>
+		</div>
+		<div class="social menu_social">
+			<ul class="d-flex flex-row align-items-center justify-content-start">
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>  
+<body>
+
+	<div class="table_column1">
+<div class="super_container">
+
+	<!-- Home -->
+
+	<div class="home d-flex flex-column align-items-start justify-content-end">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/blog.jpg" data-speed="0.8"></div>
+		<div class="home_overlay"><img src="images/home_overlay.png" alt=""></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Admin</div>
+							<div class="home_text">EYE GENIE</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <a href="#table_">
+    <div class="gap">
+      <img src="https://img.icons8.com/ios/50/null/expand-arrow--v1.png" alt="Scroll down">
+    </div>
+  </a>
+  <div class="wrapper">
+    <canvas id='c'></canvas>
+    <div class="label">text</div>
+  </div>
+<div class="butt">
+  <div class="button button_2 trans_200"><a href="admin_doctors.html">View doctors</a></div>
+<div class="button button_1 trans_200"><a href="admin_patients.html">View all patients</a></div>
+<div class="button button_2 trans_200"><a href="admin_refractionists.html">View Refractionists</a></div>
+</div>
+											
+ 
+        <!-- appointments -->
+
+    <table id="table_">
+        <thead>
+        <tr>
+            <td><a href="#">ALL APPOINTMENTS</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="amount">
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <th>Patient_ID</th>
+            <th>Reciptionist_ID</th>
+            <th>DOCTOR_ID</th>
+            <th>Start_at</th>
+            <th>End_at</th>
+            <th>Currents_status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#">PAT__1001</a></td>
+            <td>REC__1001</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_progress">in progess</td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1002</a></td>
+            <td>REC__1001</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_progress">in progess</td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1003</a></td>
+            <td>REC__1004</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_progress">in progess</td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1004</a></td>
+            <td>REC__1001</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_progress">in progess</td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1005</a></td>
+            <td>REC__1004</td>
+            <td>DOC__1001</td>
+            <td>9:00 9/1</td>
+            <td>12:00 9/1</td>
+            <td class = "status_closed">Closed</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="amount">
+                <p class="status status-paid">View all</p></td>
+          </tr>
+        </tbody>
+      </table>
+
+<!--gap-->
+
+<div class="gap_"></div>
+
+<div id="openModal-about" class="modalDialog">
+ 
+  <a href="#close" title="Close" class="close">X</a>
+  <div class="col-lg-6 intro_col">
+    <div class="intro_form_container">
+      <div class="intro_form_title">Add Drug</div>
+      <form action="#" class="intro_form" id="intro_form">
+        <div class="d-flex flex-row align-items-start justify-content-between flex-wrap">
+          <input type="text" class="intro_input" placeholder="Drug name" required="required">
+          <input type="email" class="intro_input" placeholder="Generie name" required="required">
+          <input type="tel" class="intro_input" placeholder="Your Phone" required="required">
+          <select class="intro_select intro_input" required>
+            <option disabled="" selected="" value="">Speciality</option>
+            <option>Speciality 1</option>
+            <option>Speciality 2</option>
+            <option>Speciality 3</option>
+            <option>Speciality 4</option>
+            <option>Speciality 5</option>
+          </select>
+          <select class="intro_select intro_input" required="required">
+              <option disabled="" selected="" value="">Doctor</option>
+              <option>Doctor 1</option>
+              <option>Doctor 2</option>
+              <option>Doctor 3</option>
+              <option>Doctor 4</option>
+              <option>Doctor 5</option>
+            </select>
+          <input type="text" id="datepicker" class="intro_input datepicker" placeholder="Date" required="required">
+        </div>
+        <button class="button button_1 intro_button trans_200">Add to druglist</button>
+      </form>
+    </div>
+  </div>
+</div>
+      <!-- Drugs -->
+      <table id="table__">
+        <thead>
+        <tr>
+            <td><a href="#">ALL DRUGS</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="amount">
+                <a href="#openModal-about"><p class="status status-unpaid">Add drug</p></a></td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <th>Trade name</th>
+            <th>Generic name</th>
+            <th>Note</th>
+            <th>Unit</th>
+            <th>Type</th>
+            <th>Tags</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#">PAT__1001</a></td>
+            <td>Paragon</td>
+            <td>1/5/2021</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>
+              <p class="status status-edit">Edit</p>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1002</a></td>
+            <td>Sonic</td>
+            <td>1/4/2021</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>
+              <p class="status status-edit">Edit</p>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1003</a></td>
+            <td>Innercircle</td>
+            <td>1/2/2021</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>
+              <p class="status status-edit">Edit</p>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1004</a></td>
+            <td>Varsity Plus</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>
+              <p class="status status-edit">Edit</p>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="#">PAT__1005</a></td>
+            <td>Highlander</td>
+            <td>9/18/2020</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>9/30/2020</td>
+            <td>
+              <p class="status status-edit">Edit</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+<div class="gap_"></div>
+      <div class="table_row">
+        <table id="table___">
+          <thead>
+          <tr>
+              <td><a href="#">ALL INSTRUMENTS</a></td>
+              <td></td>
+              <td class="amount">
+                  <p class="status status-unpaid">Add instrument</p></td>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th>Instrument name</th>
+              <th>Total count</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Paragon</td>
+              <td>1</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Sonic</td>
+              <td>11</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Innercircle</td>
+              <td>1</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Varsity Plus</td>
+              <td>9</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Highlander</td>
+              <td>0</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+          <tr>
+              <td><a href="#">ALL TESTS</a></td>
+              <td class="amount">
+                  <p class="status status-unpaid">Add test</p></td>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th>Test name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Paragon</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Sonic</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Innercircle</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Varsity Plus</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Highlander</td>
+              <td>
+                <p class="status status-edit">Edit</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+        <!--gap-->
+      <div class="gap_"></div>
+
+
+      
+    </div>
+      
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/graph.js"></script>
+<script src="js/blog.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
